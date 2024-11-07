@@ -39,3 +39,14 @@ h2 {
 h1 {
 	font-size: 50px;
 }
+
+.buttoncss {
+	border: 10px;
+	color: pink;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	cursor: pointer;
+}
+	
