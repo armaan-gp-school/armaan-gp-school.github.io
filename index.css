@@ -5,7 +5,7 @@ body {
 h1 {text-align: center;}
 
 *{
-    margin: 67px;
+    margin: 25px;
     padding: 0;
 }
 
@@ -16,16 +16,16 @@ h1 {text-align: center;}
 
 
 .first{
-    width:500px;
-    height: 500px;
+    width:400px;
+    height: 400px;
     background-color: white;
     float: left;
     
 }
 
 .second {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: white;
     float: right;
  
