@@ -1,3 +1,41 @@
 body {
   background: rgb(152,251,152)
 }
+
+h1 {text-align: center;}
+
+*{
+    margin: 67px;
+    padding: 0;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+.first{
+    width:500px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    
+}
+
+.second {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    float: right;
+ 
+}
+
+
+h2 {
+	font-size: 300px;
+}
+
+h1 {
+	font-size: 50px;
+}
