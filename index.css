@@ -42,7 +42,7 @@ h1 {
 
 .buttoncss {
 	border: 10px;
-	color: pink;
+	border-color: pink;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
