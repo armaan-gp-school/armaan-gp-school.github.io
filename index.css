@@ -14,12 +14,6 @@ h1 {
 
 .center {
   text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 
@@ -42,7 +36,7 @@ h1 {
 
 h2 {
 	font-size: 300px;
-  font: Verdana;
+  font-family: verdana;
   font-weight: 900;
 }
 
@@ -59,5 +53,10 @@ h1 {
   display: inline-block;
   font-size: 10px;
   cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
   left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
