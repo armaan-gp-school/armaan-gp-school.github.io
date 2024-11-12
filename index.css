@@ -1,12 +1,14 @@
 body {
-  background: rgb(196,250,116)
+  background: rgb(196,250,116);
 }
 
-h1 {text-align: center;}
+h1 {
+  text-align: center;
+}
 
 *{
-    margin: 25px;
-    padding: 0;
+  margin: 25px;
+  padding: 0;
 }
 
 
@@ -15,20 +17,21 @@ h1 {text-align: center;}
 }
 
 
-.first{
-    width:400px;
-    height: 400px;
-    background-color: white;
-    float: left;
+.first {
+  width:400px;
+  height: 400px;
+  background-color: white;
+  float: left;
+  color: rgba(92,225,230,255);
     
 }
 
 .second {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    float: right;
- 
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  float: right;
+  color: rgba(255,87,87,255);
 }
 
 
