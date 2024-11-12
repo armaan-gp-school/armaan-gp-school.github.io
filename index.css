@@ -40,12 +40,11 @@ h1 {
 	font-size: 50px;
 }
 
-.buttoncss {
+.microphone_button {
 	border: 0px;
-	border-color: pink;
+  background:transparent;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 10px;
 	cursor: pointer;
 }
