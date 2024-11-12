@@ -41,10 +41,12 @@ h1 {
 }
 
 .buttoncss {
-	border: 0px;
-  background:transparent;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	cursor: pointer;
+  border: 0px;
+  background: transparent;
+  border-color: pink;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
 }
