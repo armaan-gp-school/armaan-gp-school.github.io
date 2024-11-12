@@ -22,8 +22,7 @@ h1 {
   height: 400px;
   background-color: white;
   float: left;
-  color: rgba(92,225,230,255);
-    
+  color: rgba(255,87,87,255);
 }
 
 .second {
@@ -31,7 +30,7 @@ h1 {
   height: 400px;
   background-color: white;
   float: right;
-  color: rgba(255,87,87,255);
+  color: rgba(92,225,230,255);
 }
 
 
