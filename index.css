@@ -2,10 +2,6 @@ body {
   background: rgb(196,250,116);
 }
 
-h1 {
-  text-align: center;
-}
-
 *{
   margin: 25px;
   padding: 0;
@@ -39,11 +35,12 @@ h2 {
 }
 
 h1 {
-  font-size: 50px;
-  font-family: verdana;
+  font-size: 75px;
+  font-family: trebuchet ms;
   font-weight: 900;
   color: white;
-  -webkit-text-stroke: 2px lightgray;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
 }
 
 .buttoncss {
@@ -61,10 +58,12 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.microphone {
+input {
   border-radius: 50%;
 }
 
-input {
-  border-radius: 50%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
