@@ -11,37 +11,34 @@ h1 {
   padding: 0;
 }
 
-
-.center {
-  text-align: center;
-}
-
-
 .first {
   width:400px;
-  height: 400px;
+  height: 300px;
   background-color: white;
   float: left;
   color: rgba(255,87,87,255);
+  text-align: center;
 }
 
 .second {
   width: 400px;
-  height: 400px;
+  height: 300px;
   background-color: white;
   float: right;
   color: rgba(92,225,230,255);
+  text-align: center;
 }
 
 
 h2 {
-	font-size: 250px;
+  font-size: 247px;
   font-family: verdana;
   font-weight: 900;
+  margin: auto;
 }
 
 h1 {
-	font-size: 50px;
+  font-size: 50px;
 }
 
 .buttoncss {
