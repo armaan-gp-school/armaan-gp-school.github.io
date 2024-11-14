@@ -15,6 +15,7 @@ body {
   float: left;
   color: rgba(255,87,87,255);
   text-align: center;
+  line-height: 350px;
 }
 
 .second {
@@ -25,13 +26,17 @@ body {
   float: right;
   color: rgba(92,225,230,255);
   text-align: center;
+  line-height: 350px;
 }
 
 
 h2 {
-  font-size: 247px;
+  font-size: 200px;
   font-family: verdana;
   font-weight: 900;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 h1 {
@@ -40,21 +45,6 @@ h1 {
   font-weight: 900;
   color: white;
   text-align: center;
-}
-
-.buttoncss {
-  height: 150px;
-  width: 150px;
-  background: pink;
-  border: 0;
-  display: inline-block;
-  cursor: pointer;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 input {
