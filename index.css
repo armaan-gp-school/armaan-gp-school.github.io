@@ -7,26 +7,37 @@ body {
   padding: 0;
 }
 
-.first {
+.home_game {
   border-radius: 25px;
-  width: 500px;
-  height: 375px;
+  width: 400px;
+  height: 350px;
   background-color: white;
-  float: left;
   color: rgba(255,87,87,255);
   text-align: center;
   line-height: 350px;
+  position: absolute;
+  left: 190px;
 }
 
-.second {
+.visitor_game {
   border-radius: 25px;
-  width: 500px;
-  height: 375px;
+  width: 400px;
+  height: 350px;
   background-color: white;
-  float: right;
   color: rgba(92,225,230,255);
   text-align: center;
   line-height: 350px;
+  position: absolute;
+  right: 190px;
+}
+
+.set_score {
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 650px;
 }
 
 
@@ -40,7 +51,7 @@ h2 {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 100px;
   font-family: alexandria;
   font-weight: 900;
   color: white;
@@ -49,6 +60,9 @@ h1 {
 
 input {
   border-radius: 50%;
+  position: absolute;
+  top: 600px;
+  left: 500px;
 }
 
 .center {
