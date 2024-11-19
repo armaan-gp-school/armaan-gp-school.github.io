@@ -1,7 +1,7 @@
-let home_game_score = "Love";
-let home_set_score = 0;
-let home_match_score = 0;
-let visitor_game_score = "Love";
-let visitor_set_score = 0;
-let visitor_match_score = 0;
+var home_game_score = "Love";
+var home_set_score = 0;
+var home_match_score = 0;
+var visitor_game_score = "Love";
+var visitor_set_score = 0;
+var visitor_match_score = 0;
 
