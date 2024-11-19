@@ -31,6 +31,22 @@ body {
   right: 190px;
 }
 
+.game_border {
+  width: 33.5px;
+  height: 350px;
+  background-color: rgb(196,250,116);
+  position: absolute;
+  left: 590px;
+}
+
+.game_border2 {
+  width: 100px;
+  height: 350px;
+  background-color: white;
+  position: absolute;
+  left: 557.5px;
+}
+
 .set_score {
   border-radius: 25px;
   width: 250px;
