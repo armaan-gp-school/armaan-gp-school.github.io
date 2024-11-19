@@ -33,13 +33,51 @@ body {
 
 .set_score {
   border-radius: 25px;
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: 175px;
   background-color: white;
   position: absolute;
   top: 650px;
+  left: 50px;
 }
 
+.home_set {
+  border-radius: 25px;
+  width: 130px;
+  height: 150px;
+  background-color: rgba(255,87,87,255);
+  position: absolute;
+  top: 662.5px;
+  left: 62.5px;
+}
+
+.visitor_set {
+  border-radius: 25px;
+  width: 130px;
+  height: 150px;
+  background-color: rgba(92,225,230,255);
+  position: absolute;
+  top: 662.5px;
+  left: 157.5px;
+}
+
+.set_border {
+  width: 12.5px;
+  height: 175px;
+  background-color: white;
+  position: absolute;
+  top: 650px;
+  left: 168.75px;
+}
+
+.set_border2 {
+  width: 20px;
+  height: 150px;
+  background-color: rgba(255,87,87,255);
+  position: absolute;
+  top: 662.5px;
+  left: 152.5px;
+}
 
 h2 {
   font-size: 200px;
