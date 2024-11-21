@@ -7,6 +7,15 @@ body {
   padding: 0;
 }
 
+.logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 110px;
+  position: absolute;
+  top: 612.5px;
+  left: 475px;
+}
+
 .home_game {
   border-radius: 25px;
   width: 400px;
@@ -94,6 +103,33 @@ body {
   position: absolute;
   top: 662.5px;
   left: 152.5px;
+}
+
+.home_winner_button {
+  border-radius: 25px;
+  border: 0px;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  left: 190px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.hide {
+  display: none;
+}
+
+
+.visitor_winner_button {
+  border-radius: 25px;
+  border: 0px;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  right: 190px;
+  cursor: pointer;
+  background: transparent;
 }
 
 h2 {
