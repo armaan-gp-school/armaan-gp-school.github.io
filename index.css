@@ -116,11 +116,6 @@ body {
   background: transparent;
 }
 
-.hide {
-  display: none;
-}
-
-
 .visitor_winner_button {
   border-radius: 25px;
   border: 0px;
@@ -130,6 +125,35 @@ body {
   right: 190px;
   cursor: pointer;
   background: transparent;
+}
+
+.hide {
+  display: none;
+}
+
+.home_winner_hover:hover + .hide {
+  display: block;
+  background: rgba(255,87,87,255);
+  border-radius: 25px;
+  width: 437.5px;
+  height: 375px;
+  position: absolute;
+  left: 177.5px;
+  top: 185px;
+  z-index: -1;
+  
+}
+
+.visitor_winner_hover:hover + .hide {
+  display: block;
+  background: rgba(92,225,230,255);
+  border-radius: 25px;
+  width: 437.5px;
+  height: 375px;
+  position: absolute;
+  right: 177.5px;
+  top: 185px;
+  z-index: -1;
 }
 
 h2 {
