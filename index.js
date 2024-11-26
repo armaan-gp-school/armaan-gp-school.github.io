@@ -73,18 +73,20 @@ function add_visitor_game_score() {
 
 function check_home_set_score() {
     if (home_set_score >= 6 && (home_set_score - visitor_set_score) > 1) {
-        alert("Home player won the set!");
         home_set_score = 0;
         visitor_set_score = 0;
         home_match_score += 1;
+        document.getElementById("home_set_score").innerHTML = home_set_score;
+        alert("Home player won the set!");
     }
 }
 
 function check_visitor_set_score() {
     if (visitor_set_score >= 6 && (visitor_set_score - home_set_score) > 1) {
-        alert("Home player won the set!");
         visitor_set_score = 0;
         home_set_score = 0;
         visitor_match_score += 1;
+        document.getElementById("visitor_set_score").innerHTML = visitor_set_score;
+        alert("Visiting player won the set!");
     }
 }
