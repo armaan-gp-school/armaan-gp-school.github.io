@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="gb.png" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
-
+    <script src="index.js"></script>
   </head>
   <body>
     <main>
       <h1>Score Sense</h1>
 
       <div class="home_game">
-        <h2> 40 </h2>
+        <h2 id="home_game_score"></h2>
       </div>
 
       <div class="visitor_game">
-        <h2> 30 </h2>
+        <h2 id="visitor_game_score"></h2>
       </div>
 
       <div class="game_border2"></div>
@@ -29,8 +29,12 @@
 
       <div class="set_score"></div>
 
-      <div class="home_set"></div>
-      <div class="visitor_set"></div>
+      <div class="home_set">
+        <h3 id="home_set_score" class="home_set_text"></h3>
+      </div>
+      <div class="visitor_set">
+        <h3 id="visitor_set_score" class="visitor_set_text"></h3>
+      </div>
 
       <div class="set_border2"></div>
       <div class="set_border"></div>
@@ -38,12 +42,12 @@
       <img src="gb.png" alt="logo" class="logo">
       
       <div class="home_winner_hover">
-        <button class="home_winner_button"></button>
+        <button class="home_winner_button" onclick="add_home_game_score();"></button>
       </div>
       <div class="hide"></div>
       
       <div class="visitor_winner_hover">
-        <button class="visitor_winner_button"></button>
+        <button class="visitor_winner_button" onclick="add_visitor_game_score();"></button>
       </div>
       <div class="hide"></div>
 

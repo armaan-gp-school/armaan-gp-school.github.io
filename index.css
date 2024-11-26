@@ -77,6 +77,12 @@ body {
   left: 62.5px;
 }
 
+.home_set_text {
+  position: absolute;
+  left: 2.5px;
+  z-index: 10;
+}
+
 .visitor_set {
   border-radius: 25px;
   width: 130px;
@@ -85,6 +91,12 @@ body {
   position: absolute;
   top: 662.5px;
   left: 157.5px;
+}
+
+.visitor_set_text {
+  position: absolute;
+  left: 20px;
+  z-index: 10;
 }
 
 .set_border {
@@ -154,6 +166,16 @@ body {
   right: 177.5px;
   top: 185px;
   z-index: -1;
+}
+
+h3 {
+  color: white;
+  font-size: 75px;
+  font-family: verdana;
+  font-weight: 900;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 h2 {
