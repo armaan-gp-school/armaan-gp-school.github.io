@@ -95,7 +95,7 @@ body {
 
 .visitor_set_text {
   position: absolute;
-  left: 20px;
+  left: 25px;
   z-index: 10;
 }
 
@@ -116,6 +116,67 @@ body {
   top: 662.5px;
   left: 152.5px;
 }
+
+.match_score {
+  border-radius: 25px;
+  width: 250px;
+  height: 175px;
+  background-color: white;
+  position: absolute;
+  top: 650px;
+  right: 50px;
+}
+
+.visitor_match {
+  border-radius: 25px;
+  width: 130px;
+  height: 150px;
+  background-color: rgba(92,225,230,255);
+  position: absolute;
+  top: 662.5px;
+  right: 62.5px;
+}
+
+.visitor_match_text {
+  position: absolute;
+  right: 2.5px;
+  z-index: 10;
+}
+
+.home_match {
+  border-radius: 25px;
+  width: 130px;
+  height: 150px;
+  background-color: rgba(255,87,87,255);
+  position: absolute;
+  top: 662.5px;
+  right: 157.5px;
+}
+
+.home_match_text {
+  position: absolute;
+  right: 25px;
+  z-index: 10;
+}
+
+.match_border {
+  width: 12.5px;
+  height: 175px;
+  background-color: white;
+  position: absolute;
+  top: 650px;
+  right: 168.75px;
+}
+
+.match_border2 {
+  width: 20px;
+  height: 150px;
+  background-color: rgba(255,87,87,255);
+  position: absolute;
+  top: 662.5px;
+  right: 177.5px;
+}
+
 
 .home_winner_button {
   border-radius: 25px;

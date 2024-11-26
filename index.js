@@ -8,8 +8,10 @@ var visitor_match_score = 0;
 window.onload = function() {
     document.getElementById("home_game_score").innerHTML = home_game_score;
     document.getElementById("home_set_score").innerHTML = home_set_score;
+    document.getElementById("home_match_score").innerHTML = home_match_score;
     document.getElementById("visitor_game_score").innerHTML = visitor_game_score;
     document.getElementById("visitor_set_score").innerHTML = visitor_set_score;
+    document.getElementById("visitor_match_score").innerHTML = visitor_match_score;
 }
 
 function add_home_game_score() {
@@ -76,8 +78,9 @@ function check_home_set_score() {
         home_set_score = 0;
         visitor_set_score = 0;
         home_match_score += 1;
-        alert("Home player won the set!");
     }
+    document.getElementById("home_match_score").innerHTML = home_match_score;
+    check_match_score();
 }
 
 function check_visitor_set_score() {
@@ -85,6 +88,21 @@ function check_visitor_set_score() {
         visitor_set_score = 0;
         home_set_score = 0;
         visitor_match_score += 1;
-        alert("Visiting player won the set!");
+    }
+    document.getElementById("visitor_match_score").innerHTML = visitor_match_score;
+    check_match_score();
+}
+
+function check_match_score() {
+    if (home_match_score == 2 || visitor_match_score == 2) {
+        if (home_match_score == 2) {
+            alert("Home player won the match!");
+        } else if (visitor_match_score == 2) {
+            alert("Visiting player won the match!");
+        }
+        home_match_score = 0;
+        visitor_match_score = 0;
+        document.getElementById("home_match_score").innerHTML = home_match_score;
+        document.getElementById("visitor_match_score").innerHTML = visitor_match_score;
     }
 }
