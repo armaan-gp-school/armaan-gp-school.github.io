@@ -184,6 +184,7 @@ body {
   width: 400px;
   height: 350px;
   position: absolute;
+  top: 197.5px;
   left: 190px;
   cursor: pointer;
   background: transparent;
@@ -195,7 +196,200 @@ body {
   width: 400px;
   height: 350px;
   position: absolute;
+  top: 197.5px;
   right: 190px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.undo_home_game_score1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 565px;
+  left: 365px;
+}
+
+.undo_home_game_score2 {
+  background-color: rgba(255,87,87,255);
+  border-radius: 10px;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 585px;
+  left: 372.5px;
+}
+
+.undo_home_game_score_button {
+  border-radius: 10px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 565px;
+  left: 365px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.undo_visitor_game_score1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 565px;
+  right: 365px;
+}
+
+.undo_visitor_game_score2 {
+  background-color: rgba(92,225,230,255);
+  border-radius: 10px;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 585px;
+  right: 372.5px;
+}
+
+.undo_visitor_game_score_button {
+  border-radius: 10px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 565px;
+  right: 365px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.undo_home_set_score1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  left: 100px;
+}
+
+.undo_home_set_score2 {
+  background-color: rgba(255,87,87,255);
+  border-radius: 10px;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 855px;
+  left: 107.5px;
+}
+
+.undo_home_set_score_button {
+  border-radius: 10px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  left: 100px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.undo_visitor_set_score1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  left: 200px;
+}
+
+.undo_visitor_set_score2 {
+  background-color: rgba(92,225,230,255);
+  border-radius: 10px;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 855px;
+  left: 207.5px;
+}
+
+.undo_visitor_set_score_button {
+  border-radius: 10px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  left: 200px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.undo_home_match_score1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  right: 200px;
+}
+
+.undo_home_match_score2 {
+  background-color: rgba(255,87,87,255);
+  border-radius: 10px;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 855px;
+  right: 207.5px;
+}
+
+.undo_home_match_score_button {
+  border-radius: 10px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  right: 200px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.undo_visitor_match_score1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  right: 100px;
+}
+
+.undo_visitor_match_score2 {
+  background-color: rgba(92,225,230,255);
+  border-radius: 10px;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 855px;
+  right: 107.5px;
+}
+
+.undo_visitor_match_score_button {
+  border-radius: 10px;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 835px;
+  right: 100px;
   cursor: pointer;
   background: transparent;
 }
@@ -207,8 +401,8 @@ body {
 .home_winner_hover:hover + .hide {
   display: block;
   background: rgba(255,87,87,255);
-  border-radius: 25px;
-  width: 437.5px;
+  border-radius: 35px;
+  width: 445px;
   height: 375px;
   position: absolute;
   left: 177.5px;
@@ -220,12 +414,84 @@ body {
 .visitor_winner_hover:hover + .hide {
   display: block;
   background: rgba(92,225,230,255);
-  border-radius: 25px;
-  width: 437.5px;
+  border-radius: 35px;
+  width: 445px;
   height: 375px;
   position: absolute;
   right: 177.5px;
   top: 185px;
+  z-index: -1;
+}
+
+.undo_home_game_score_hover:hover + .hide {
+  display: block;
+  background: rgba(255,87,87,255);
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 360px;
+  top: 560px;
+  z-index: -1;
+}
+
+.undo_visitor_game_score_hover:hover + .hide {
+  display: block;
+  background: rgba(92,225,230,255);
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 360px;
+  top: 560px;
+  z-index: -1;
+}
+
+.undo_home_set_score_hover:hover + .hide {
+  display: block;
+  background: rgba(255,87,87,255);
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 95px;
+  top: 830px;
+  z-index: -1;
+}
+
+.undo_visitor_set_score_hover:hover + .hide {
+  display: block;
+  background: rgba(92,225,230,255);
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 195px;
+  top: 830px;
+  z-index: -1;
+}
+
+.undo_home_match_score_hover:hover + .hide {
+  display: block;
+  background: rgba(255,87,87,255);
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 195px;
+  top: 830px;
+  z-index: -1;
+}
+
+.undo_visitor_match_score_hover:hover + .hide {
+  display: block;
+  background: rgba(92,225,230,255);
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 95px;
+  top: 830px;
   z-index: -1;
 }
 
