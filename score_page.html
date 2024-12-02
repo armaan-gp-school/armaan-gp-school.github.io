@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="gb.png" type="image/x-icon">
+        <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
+
+        <title>Score Sense - Score Page</title>
+        <link rel="stylesheet" href="score_page.css">
+        <script src="score_page.js"></script>
+    </head>
+    <body>
+        <main>
+            <div class="background_image"></div>
+
+            <h1>Score Sense</h1>
+
+            <a href="index.html" class="back">Back</a>
+
+            <div class="home_game">
+                <h2 id="home_game_score"></h2>
+            </div>
+
+            <div class="visitor_game">
+                <h2 id="visitor_game_score"></h2>
+            </div>
+
+            <div class="game_border2"></div>
+            <div class="game_border"></div>
+
+            <!-- this is for microphone button <input type="image" src="pink microphone.png" width="250px" height="250px" class="center"> -->
+
+            <div class="set_score"></div>
+
+            <div class="home_set">
+                <h3 id="home_set_score" class="home_set_text"></h3>
+            </div>
+            <div class="visitor_set">
+                <h3 id="visitor_set_score" class="visitor_set_text"></h3>
+            </div>
+
+            <div class="set_border2"></div>
+            <div class="set_border"></div>
+
+            <div class="match_score"></div>
+
+            <div class="home_match">
+                <h3 id="home_match_score" class="home_match_text"></h3>
+            </div>
+            <div class="visitor_match">
+                <h3 id="visitor_match_score" class="visitor_match_text"></h3>
+            </div>
+
+            <div class="match_border2"></div>
+            <div class="match_border"></div>
+      
+            <img src="gb.png" alt="logo" class="logo">
+      
+            <div class="home_winner_hover">
+                <button class="home_winner_button" onclick="add_home_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+      
+            <div class="visitor_winner_hover">
+                <button class="visitor_winner_button" onclick="add_visitor_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_home_game_score1"></div>
+            <div class="undo_home_game_score2"></div>
+            <div class="undo_home_game_score_hover">
+                <button class="undo_home_game_score_button" onclick="undo_home_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_visitor_game_score1"></div>
+            <div class="undo_visitor_game_score2"></div>
+            <div class="undo_visitor_game_score_hover">
+                <button class="undo_visitor_game_score_button" onclick="undo_visitor_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_home_set_score1"></div>
+            <div class="undo_home_set_score2"></div>
+            <div class="undo_home_set_score_hover">
+                <button class="undo_home_set_score_button" onclick="undo_home_set_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_visitor_set_score1"></div>
+            <div class="undo_visitor_set_score2"></div>
+            <div class="undo_visitor_set_score_hover">
+                <button class="undo_visitor_set_score_button" onclick="undo_visitor_set_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_home_match_score1"></div>
+            <div class="undo_home_match_score2"></div>
+            <div class="undo_home_match_score_hover">
+                <button class="undo_home_match_score_button" onclick="undo_home_match_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_visitor_match_score1"></div>
+            <div class="undo_visitor_match_score2"></div>
+            <div class="undo_visitor_match_score_hover">
+                <button class="undo_visitor_match_score_button" onclick="undo_visitor_match_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+        </main>
+    </body>
+</html>

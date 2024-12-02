@@ -1,70 +1,113 @@
 body {
-  background: rgb(196,250,116);
+  background-color: black;
 }
 
-*{
-  margin: 25px;
+.background_image {
+  position: fixed;
+  top: -20px;
+  left: -20px;
+  z-index: -2;
+  display: block;
+  background-image: url("score-sense-background.jpg");
+  width: 1920px;
+  height: 1200px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+* {
+  margin: 0px;
   padding: 0;
+}
+
+a {
+  border-radius: 25px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(34,46,92);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-family: verdana;
+  font-size: 40px;
+  line-height: 92.5px;
+  text-decoration: none;
+}
+
+.back {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+}
+
+.back:hover {
+  background: rgb(26,32,59);
 }
 
 .logo {
   width: 250px;
   height: 250px;
-  border-radius: 110px;
+  border-radius: 150px;
   position: absolute;
-  top: 612.5px;
-  left: 481.25px;
+  top: 637.5px;
+  left: 505px;
 }
 
 .home_game {
   border-radius: 25px;
   width: 400px;
   height: 350px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   color: rgba(255,87,87,255);
   text-align: center;
   line-height: 350px;
   position: absolute;
-  left: 190px;
+  top: 190px;
+  left: 215px;
 }
 
 .visitor_game {
   border-radius: 25px;
   width: 400px;
   height: 350px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   color: rgba(92,225,230,255);
   text-align: center;
   line-height: 350px;
   position: absolute;
-  right: 190px;
+  top: 190px;
+  right: 215px;
 }
 
 .game_border {
-  width: 33.5px;
-  height: 375px;
-  background-color: rgb(196,250,116);
+  width: 32.5px;
+  height: 350px;
+  background-color: rgb(34,46,92);
   position: absolute;
-  left: 590px;
-  top: 185px;
+  left: 582.5px;
+  top: 190px;
 }
 
 .game_border2 {
-  width: 100px;
+  width: 32.5px;
   height: 350px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   position: absolute;
-  left: 557.5px;
+  right: 582.5px;
+  top: 190px;
 }
 
 .set_score {
-  border-radius: 25px;
+  border-radius: 35px;
   width: 250px;
   height: 175px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   position: absolute;
   top: 650px;
-  left: 50px;
+  left: 75px;
 }
 
 .home_set {
@@ -74,12 +117,13 @@ body {
   background-color: rgba(255,87,87,255);
   position: absolute;
   top: 662.5px;
-  left: 62.5px;
+  left: 87.5px;
 }
 
 .home_set_text {
   position: absolute;
-  left: 2.5px;
+  top: 25px;
+  left: 27.5px;
   z-index: 10;
 }
 
@@ -90,22 +134,23 @@ body {
   background-color: rgba(92,225,230,255);
   position: absolute;
   top: 662.5px;
-  left: 157.5px;
+  left: 182.5px;
 }
 
 .visitor_set_text {
   position: absolute;
-  left: 25px;
+  top: 25px;
+  left: 50px;
   z-index: 10;
 }
 
 .set_border {
   width: 12.5px;
   height: 175px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   position: absolute;
   top: 650px;
-  left: 168.75px;
+  left: 193.75px;
 }
 
 .set_border2 {
@@ -114,17 +159,17 @@ body {
   background-color: rgba(255,87,87,255);
   position: absolute;
   top: 662.5px;
-  left: 152.5px;
+  left: 177.5px;
 }
 
 .match_score {
-  border-radius: 25px;
+  border-radius: 35px;
   width: 250px;
   height: 175px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   position: absolute;
   top: 650px;
-  right: 50px;
+  right: 75px;
 }
 
 .visitor_match {
@@ -134,12 +179,13 @@ body {
   background-color: rgba(92,225,230,255);
   position: absolute;
   top: 662.5px;
-  right: 62.5px;
+  right: 87.5px;
 }
 
 .visitor_match_text {
   position: absolute;
-  right: 2.5px;
+  top: 25px;
+  right: 27.5px;
   z-index: 10;
 }
 
@@ -150,22 +196,23 @@ body {
   background-color: rgba(255,87,87,255);
   position: absolute;
   top: 662.5px;
-  right: 157.5px;
+  right: 182.5px;
 }
 
 .home_match_text {
   position: absolute;
-  right: 25px;
+  top: 25px;
+  right: 50px;
   z-index: 10;
 }
 
 .match_border {
   width: 12.5px;
   height: 175px;
-  background-color: white;
+  background-color: rgb(34,46,92);
   position: absolute;
   top: 650px;
-  right: 168.75px;
+  right: 193.75px;
 }
 
 .match_border2 {
@@ -174,7 +221,7 @@ body {
   background-color: rgba(255,87,87,255);
   position: absolute;
   top: 662.5px;
-  right: 177.5px;
+  right: 202.5px;
 }
 
 
@@ -185,7 +232,7 @@ body {
   height: 350px;
   position: absolute;
   top: 197.5px;
-  left: 190px;
+  left: 215px;
   cursor: pointer;
   background: transparent;
 }
@@ -197,19 +244,19 @@ body {
   height: 350px;
   position: absolute;
   top: 197.5px;
-  right: 190px;
+  right: 215px;
   cursor: pointer;
   background: transparent;
 }
 
 .undo_home_game_score1 {
-  background-color: white;
+  background-color: rgb(34,46,92);
   border-radius: 10px;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 565px;
-  left: 365px;
+  left: 390px;
 }
 
 .undo_home_game_score2 {
@@ -219,7 +266,7 @@ body {
   height: 10px;
   position: absolute;
   top: 585px;
-  left: 372.5px;
+  left: 397.5px;
 }
 
 .undo_home_game_score_button {
@@ -229,19 +276,19 @@ body {
   height: 50px;
   position: absolute;
   top: 565px;
-  left: 365px;
+  left: 390px;
   cursor: pointer;
   background: transparent;
 }
 
 .undo_visitor_game_score1 {
-  background-color: white;
+  background-color: rgb(34,46,92);
   border-radius: 10px;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 565px;
-  right: 365px;
+  right: 390px;
 }
 
 .undo_visitor_game_score2 {
@@ -251,7 +298,7 @@ body {
   height: 10px;
   position: absolute;
   top: 585px;
-  right: 372.5px;
+  right: 397.5px;
 }
 
 .undo_visitor_game_score_button {
@@ -261,19 +308,19 @@ body {
   height: 50px;
   position: absolute;
   top: 565px;
-  right: 365px;
+  right: 390px;
   cursor: pointer;
   background: transparent;
 }
 
 .undo_home_set_score1 {
-  background-color: white;
+  background-color: rgb(34,46,92);
   border-radius: 10px;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 835px;
-  left: 100px;
+  left: 125px;
 }
 
 .undo_home_set_score2 {
@@ -283,7 +330,7 @@ body {
   height: 10px;
   position: absolute;
   top: 855px;
-  left: 107.5px;
+  left: 132.5px;
 }
 
 .undo_home_set_score_button {
@@ -293,19 +340,19 @@ body {
   height: 50px;
   position: absolute;
   top: 835px;
-  left: 100px;
+  left: 125px;
   cursor: pointer;
   background: transparent;
 }
 
 .undo_visitor_set_score1 {
-  background-color: white;
+  background-color: rgb(34,46,92);
   border-radius: 10px;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 835px;
-  left: 200px;
+  left: 225px;
 }
 
 .undo_visitor_set_score2 {
@@ -315,7 +362,7 @@ body {
   height: 10px;
   position: absolute;
   top: 855px;
-  left: 207.5px;
+  left: 232.5px;
 }
 
 .undo_visitor_set_score_button {
@@ -325,19 +372,19 @@ body {
   height: 50px;
   position: absolute;
   top: 835px;
-  left: 200px;
+  left: 225px;
   cursor: pointer;
   background: transparent;
 }
 
 .undo_home_match_score1 {
-  background-color: white;
+  background-color: rgb(34,46,92);
   border-radius: 10px;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 835px;
-  right: 200px;
+  right: 225px;
 }
 
 .undo_home_match_score2 {
@@ -347,7 +394,7 @@ body {
   height: 10px;
   position: absolute;
   top: 855px;
-  right: 207.5px;
+  right: 232.5px;
 }
 
 .undo_home_match_score_button {
@@ -357,19 +404,19 @@ body {
   height: 50px;
   position: absolute;
   top: 835px;
-  right: 200px;
+  right: 225px;
   cursor: pointer;
   background: transparent;
 }
 
 .undo_visitor_match_score1 {
-  background-color: white;
+  background-color: rgb(34,46,92);
   border-radius: 10px;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 835px;
-  right: 100px;
+  right: 125px;
 }
 
 .undo_visitor_match_score2 {
@@ -379,7 +426,7 @@ body {
   height: 10px;
   position: absolute;
   top: 855px;
-  right: 107.5px;
+  right: 132.5px;
 }
 
 .undo_visitor_match_score_button {
@@ -389,7 +436,7 @@ body {
   height: 50px;
   position: absolute;
   top: 835px;
-  right: 100px;
+  right: 125px;
   cursor: pointer;
   background: transparent;
 }
@@ -402,25 +449,26 @@ body {
   display: block;
   background: rgba(255,87,87,255);
   border-radius: 35px;
-  width: 445px;
+  width: 457.5px;
   height: 375px;
   position: absolute;
-  left: 177.5px;
-  top: 185px;
+  left: 202.5px;
+  top: 177.5px;
   z-index: -1;
-  
+  clip-path: inset(0 32px 0 0);
 }
 
 .visitor_winner_hover:hover + .hide {
   display: block;
   background: rgba(92,225,230,255);
   border-radius: 35px;
-  width: 445px;
+  width: 457.5px;
   height: 375px;
   position: absolute;
-  right: 177.5px;
-  top: 185px;
+  right: 202.5px;
+  top: 177.5px;
   z-index: -1;
+  clip-path: inset(0 0 0 32px);
 }
 
 .undo_home_game_score_hover:hover + .hide {
@@ -430,7 +478,7 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
-  left: 360px;
+  left: 385px;
   top: 560px;
   z-index: -1;
 }
@@ -442,7 +490,7 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
-  right: 360px;
+  right: 385px;
   top: 560px;
   z-index: -1;
 }
@@ -454,7 +502,7 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
-  left: 95px;
+  left: 120px;
   top: 830px;
   z-index: -1;
 }
@@ -466,7 +514,7 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
-  left: 195px;
+  left: 220px;
   top: 830px;
   z-index: -1;
 }
@@ -478,7 +526,7 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
-  right: 195px;
+  right: 220px;
   top: 830px;
   z-index: -1;
 }
@@ -490,7 +538,7 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
-  right: 95px;
+  right: 120px;
   top: 830px;
   z-index: -1;
 }
@@ -515,6 +563,7 @@ h2 {
 }
 
 h1 {
+  margin: 25px;
   font-size: 100px;
   font-family: alexandria;
   font-weight: 900;
