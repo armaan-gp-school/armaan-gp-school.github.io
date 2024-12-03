@@ -23,7 +23,10 @@ body {
   padding: 0;
 }
 
-a {
+.back {
+  position: absolute;
+  top: 65px;
+  left: 65px;
   border-radius: 25px;
   width: 200px;
   height: 100px;
@@ -35,12 +38,6 @@ a {
   font-size: 40px;
   line-height: 92.5px;
   text-decoration: none;
-}
-
-.back {
-  position: absolute;
-  top: 65px;
-  left: 65px;
 }
 
 .back:hover {
@@ -582,4 +579,24 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+  position: absolute;
+  top: 925px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 100%;
+  background-color: rgb(34,46,92);
+}
+
+.footer_text {
+  color: white;
+  font-family: alexandria;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15px;
+  text-decoration: none;
 }

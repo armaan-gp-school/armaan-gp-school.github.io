@@ -33,15 +33,32 @@ h1 {
 }
 
 .logo {
-    width: 250px;
-    height: 250px;
-    border-radius: 150px;
+    width: 475px;
+    height: 475px;
+    border-radius: 237.5px;
     position: absolute;
-    top: 437.5px;
-    left: 505px;
+    top: 200px;
+    right: 150px;
 }
 
-a {
+.instructions_text1 {
+    /* background-color: red; */
+    width: 475px;
+    height: 525px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 20px;
+    font-family: alexandria;
+    font-weight: 400;
+    color: white;
+    line-height: 35px;
+}
+
+.back {
+    position: absolute;
+    top: 65px;
+    left: 65px;
     border-radius: 25px;
     width: 200px;
     height: 100px;
@@ -55,16 +72,26 @@ a {
     text-decoration: none;
 }
 
-.back {
-    position: absolute;
-    top: 65px;
-    left: 65px;
-}
-
 .back:hover {
     background: rgb(26,32,59);
 }
 
-.hide {
-    display: none;
+footer {
+    position: absolute;
+    top: 775px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 100%;
+    background-color: rgb(34,46,92);
+}
+
+.footer_text {
+    color: white;
+    font-family: alexandria;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    text-decoration: none;
 }

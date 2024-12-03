@@ -41,7 +41,7 @@ h1 {
     left: 505px;
 }
 
-a {
+.middle_link {
     border-radius: 25px;
     width: 387px;
     height: 250px;
@@ -85,36 +85,6 @@ a {
     left: 19%;
 }
 
-.hide {
-    display: none;
-}
-
-.score_page_hover:hover + .hide {
-    display: block;
-    background: rgb(26,32,59);
-    border-radius: 35px;
-    width: 412.5px;
-    height: 275px;
-    position: absolute;
-    left: 252.5px;
-    top: 177.5px;
-    z-index: -1;
-    clip-path: inset(0 37px 0 0);
-}
-
-.instructions_hover:hover + .hide {
-    display: block;
-    background: rgb(26,32,59);
-    border-radius: 35px;
-    width: 412.5px;
-    height: 275px;
-    position: absolute;
-    right: 252.5px;
-    top: 177.5px;
-    z-index: -1;
-    clip-path: inset(0 0 0 37px);
-}
-
 footer {
     position: absolute;
     top: 775px;
@@ -131,4 +101,6 @@ footer {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    top: 15px;
+    text-decoration: none;
 }
