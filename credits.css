@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+.background_image {
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    z-index: -2;
+    display: block;
+    background-image: url("score-sense-background.jpg");
+    width: 1920px;
+    height: 1200px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+h1 {
+    margin: 25px;
+    font-size: 100px;
+    font-family: alexandria;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: alexandria;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    position: absolute;
+    top: 437.5px;
+    left: 505px;
+}
+
+.back {
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(34,46,92);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: verdana;
+    font-size: 40px;
+    line-height: 92.5px;
+    text-decoration: none;
+}
+
+.back:hover {
+    background: rgb(26,32,59);
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    top: 775px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 100%;
+    background-color: rgb(34,46,92);
+}
+
+.footer_text {
+    color: white;
+    font-family: alexandria;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    text-decoration: none;
+}
