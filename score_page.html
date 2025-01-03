@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="gb.png" type="image/x-icon">
+        <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
+
+        <title>ScoreSense - Score Page</title>
+        <link rel="stylesheet" href="score_page.css">
+        <script src="score_page.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>ScoreSense</h1>
+            <img src="score-sense-background.jpg" class="background_image">
+
+            <img src="gb.png" alt="logo" class="small_logo">
+            <p class="small_title">ScoreSense</p>
+            <a href="index.html">
+                <button class="home_button"></button>
+            </a>
+
+            <a href="index.html" class="link home_link">
+                <p class="home_text">Home</p>
+            </a>
+
+            <a href="score_page.html" class="link score_page_link">
+                <p class="score_page_text">Score Page</p>
+            </a>
+
+            <a href="instructions.html" class="link instructions_link">
+                <p class="instructions_text">Instructions</p>
+            </a>
+
+            <a href="credits.html" class="link credits_link">
+                <p class="credits_text">Credits</p>
+            </a>
+        </header>
+        <main>
+            <div class="game_score_head">
+                <p class="game_score_head_text">Game Score</p>
+            </div>
+
+            <div class="home_game">
+                <h2 id="home_game_score"></h2>
+            </div>
+
+            <div class="visitor_game">
+                <h2 id="visitor_game_score"></h2>
+            </div>
+
+            <div class="set_score"></div>
+
+            <div class="home_set">
+                <h3 id="home_set_score" class="home_set_text"></h3>
+            </div>
+            <div class="visitor_set">
+                <h3 id="visitor_set_score" class="visitor_set_text"></h3>
+            </div>
+
+            <div class="set_score_head">
+                <p class="set_score_head_text">Set Score</p>
+            </div>
+
+            <div class="set_border2"></div>
+            <div class="set_border"></div>
+
+            <div class="match_score"></div>
+
+            <div class="home_match">
+                <h3 id="home_match_score" class="home_match_text"></h3>
+            </div>
+            <div class="visitor_match">
+                <h3 id="visitor_match_score" class="visitor_match_text"></h3>
+            </div>
+
+            <div class="match_score_head">
+                <p class="match_score_head_text">Match Score</p>
+            </div>
+
+            <div class="match_border2"></div>
+            <div class="match_border"></div>
+            
+            <div class="home_winner_hover">
+                <button class="home_winner_button" onclick="add_home_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+      
+            <div class="visitor_winner_hover">
+                <button class="visitor_winner_button" onclick="add_visitor_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_home_game_score1"></div>
+            <div class="undo_home_game_score2"></div>
+            <div class="undo_home_game_score_hover">
+                <button class="undo_home_game_score_button" onclick="undo_home_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_visitor_game_score1"></div>
+            <div class="undo_visitor_game_score2"></div>
+            <div class="undo_visitor_game_score_hover">
+                <button class="undo_visitor_game_score_button" onclick="undo_visitor_game_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_home_set_score1"></div>
+            <div class="undo_home_set_score2"></div>
+            <div class="undo_home_set_score_hover">
+                <button class="undo_home_set_score_button" onclick="undo_home_set_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_visitor_set_score1"></div>
+            <div class="undo_visitor_set_score2"></div>
+            <div class="undo_visitor_set_score_hover">
+                <button class="undo_visitor_set_score_button" onclick="undo_visitor_set_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_home_match_score1"></div>
+            <div class="undo_home_match_score2"></div>
+            <div class="undo_home_match_score_hover">
+                <button class="undo_home_match_score_button" onclick="undo_home_match_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="undo_visitor_match_score1"></div>
+            <div class="undo_visitor_match_score2"></div>
+            <div class="undo_visitor_match_score_hover">
+                <button class="undo_visitor_match_score_button" onclick="undo_visitor_match_score();"></button>
+            </div>
+            <div class="hide"></div>
+
+            <div class="clear_scores_hover">
+                <button class="clear_scores" onclick="resetScores();">
+                    <p class="clear_scores_text">Clear Scores</p>
+                </button>    
+            </div>
+            <div class="hide"></div>
+
+            <div class="startButton_hover">
+                <input type="image" src="start_microphone.png" id="startButton" class="startButton" onclick="start_stt();">
+            </div>
+            <div class="hide"></div>
+
+            <div class="stopButton_hover">
+                <input type="image" src="stop_microphone.png" id="stopButton" class="stopButton" onclick="stop_stt();">
+            </div>
+            <div class="hide"></div>
+
+            <p id="feedbackElement">Microphone feedback will appear here.</p>
+        </main>
+    </body>
+</html>
