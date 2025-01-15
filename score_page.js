@@ -317,7 +317,6 @@ function stop_stt() {
             feedbackElement = `Neither of the keywords "${home_won}" or "${visitor_won}" were found in the speech transcript.`;
         }
         document.getElementById("feedbackElement").innerHTML = feedbackElement;
-        transcript = "";
     } else {
         console.warn("Speech recognition is not active.");
     }
